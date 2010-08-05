@@ -1,0 +1,114 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[sffms]{sffms (Short Story)}
+# sffms textclass definition file
+# Author: K. Chester <kcyarn7@gmail.com>
+# Note: For LyX2.0 only.
+
+Format 11
+Columns            1
+Sides              1
+SecNumDepth        -1
+TocDepth           0
+DefaultStyle       Standard
+PageStyle          Fancy
+
+# Set line spacing
+Provides SetSpace  2
+
+ClassOptions
+	FontSize             12
+	PageStyle            empty|plain|headings|fancy|standard
+	Other                courier
+End
+
+Style Title
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	title
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Author
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	author
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Surname
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	surname
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Address
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	address
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Runningtitle
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	runningtitle
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Wordcount
+	Margin		Static
+	LatexType	Command
+	Category	FrontMatter
+	InTitle		0
+	Align		Center
+	LatexName	wordcount
+	LabelType	No_Label
+	InPreamble	1
+End
+
+Style Part*
+	Align                 Left
+	AlignPossible         Left
+	TopSep                2
+	BottomSep             1.5
+	Font
+	  Size                Larger
+	EndFont
+End
+
+Style Standard
+	Category              MainText
+	Margin                Static
+	LatexType             Paragraph
+	LatexName             dummy
+	ParIndent             MM
+	ParSkip               0.4
+	Align                 Block
+	AlignPossible         Block, Left, Right, Center
+	LabelType             No_Label
+End
+
+Preamble
+	\usepackage{indentfirst}
+EndPreamble
