@@ -1,8 +1,8 @@
 #LyX 2.0.0svn created this file. For more info see http://www.lyx.org/
-\lyxformat 398
+\lyxformat 399
 \begin_document
 \begin_header
-\textclass sffms_short
+\textclass article
 \begin_preamble
 % copyright lapsed in the United States of America 
 %Original .tex file by M.C. de Marco
@@ -37,6 +37,7 @@
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
 \use_indices false
@@ -46,8 +47,8 @@
 \shortcut idx
 \color #008000
 \end_index
-\secnumdepth 3
-\tocdepth 3
+\secnumdepth 0
+\tocdepth 0
 \paragraph_separation indent
 \paragraph_indentation default
 \quotes_language english
@@ -61,35 +62,6 @@
 \end_header
 
 \begin_body
-
-\begin_layout Title
-The Country of the Blind
-\end_layout
-
-\begin_layout Author
-H.G.
- Wells
-\end_layout
-
-\begin_layout Surname
-Wells
-\end_layout
-
-\begin_layout Address
-47 The High Street
-\begin_inset Newline newline
-\end_inset
-
-Bromley, Kent
-\end_layout
-
-\begin_layout Runningtitle
-Blind
-\end_layout
-
-\begin_layout Wordcount
-9600
-\end_layout
 
 \begin_layout Part*
 \begin_inset space \thinspace{}

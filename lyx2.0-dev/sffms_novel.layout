@@ -25,73 +25,80 @@ End
 Input stdcounters.inc
 
 Style Title
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	title
-	LabelType	No_Label
+	LabelType	Title 
 	InPreamble	1
 End
 
 Style Author
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	author
-	LabelType	No_Label
+	LabelType	Author 
 	InPreamble	1
 End
 
 Style Surname
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	surname
-	LabelType	No_Label
+	LabelType	Surname
 	InPreamble	1
 End
 
 Style Address
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	address
-	LabelType	No_Label
+	LabelType	Address
 	InPreamble	1
 End
 
 Style Runningtitle
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	runningtitle
-	LabelType	No_Label
+	LabelType	Running Title 
 	InPreamble	1
 End
 
 Style Wordcount
-	Margin		Static
+	LeftMargin      MMMM
+	RightMargin     MMMM
 	LatexType	Command
 	Category	FrontMatter
 	InTitle		0
 	Align		Center
 	LatexName	wordcount
-	LabelType	No_Label
+	LabelType	Word Count 
 	InPreamble	1
 End
 
 Style Chapter
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	Category              Section
 	LabelString	          "Chapter \thechapter"
 	LabelStringAppendix   "Appendix \thechapter"
@@ -106,7 +113,7 @@ Style Chapter
 	TopSep                4
 	BottomSep             0.8
 	ParSep                0.8
-	Align                 Block
+	Align                 Center
 	OptionalArgs          1
 	Font
 	  Series              Bold
@@ -117,7 +124,8 @@ End
 Style Chapter*
 	CopyStyle             Chapter
 	Category              Unnumbered
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	LatexName             chapter*
 	LabelType             No_Label
 	LabelCounter	      ""	
@@ -126,11 +134,13 @@ End
 
 Style Standard
 	Category              MainText
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	LatexType             Paragraph
 	LatexName             dummy
 	ParIndent             MM
-	ParSkip               0.4
+	ParSkip               0.8
+	ParSep                0.3
 	Align                 Block
 	AlignPossible         Block, Left, Right, Center
 	LabelType             No_Label

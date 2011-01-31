@@ -11,7 +11,7 @@
 % The Current Maintainer of this work is K. Chester.
 %
 % This work consists of the files sffms_novel.layout. sffms_short.layout, 
-% blind.lyx, and sleeper.lyx. Sleeper is a novel length example. Blind is a 
+% blind.lyx, and sleeper.lyx for both LyX-2.0 dev and LyX-1.6. Sleeper is a novel length example. Blind is a 
 % short story length example.
 
 INSTALLING SFFMS:
@@ -24,22 +24,7 @@ INSTALLING LyX LAYOUTS:
 Copy the layout files into your LyX layout directory. (/usr/share/lyx/layouts on Ubuntu). Open LyX and go to Tools > Reconfigure. Restart LyX.
 
 ISSUES:
-1) First paragraph must be indented. Currently, it isn't and using \usepackage{indentfirst} doesn't fix it for short story, but it does for novels. For short stories, add a part* prior to text and Insert > Formatting > Thinspace. This gives the correct result, but it's a hack!
-2) The layout file will need to change after LyX 1.7/2.0 (the current dev version) is released. The sffms uses the preamble for title, author name, etc. In current versions of LyX this must be entered by hand. Version 1.7 and later should have support for doing this through the layout.
-3) Scene breaks are added with Insert > TexCode \newscene . Need to change this!
+Please see the Readme file for the appropriate version of LyX.
 
-Preamble Code (Copy and paste into Documents > Settings > LaTeX Preamble):
-
-\author{H. G. Wells}
-\surname{Wells}
-\address{47 The High Street\\ Bromley, Kent}
-\title{The Country of the Blind}
-\runningtitle{Blind}
-\wordcount{9600}
-
-Edit the above to use your information.
-
-See sffms docucmentation for other preamble options.
-
-For novels with chapter titles, use chapter. For novels without chapter titles, use chapter*.
-
+TIPS:
+PDF annotations, TODO-Notes, and FiXme are all wonderful methods of annotating/commenting/reviewing your work. To install these modules, see http://wiki.lyx.org/Layouts/Modules .

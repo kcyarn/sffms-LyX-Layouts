@@ -25,7 +25,8 @@ End
 Input stdcounters.inc
 
 Style Chapter
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	Category              Section
 	LabelString	          "Chapter \thechapter"
 	LabelStringAppendix   "Appendix \thechapter"
@@ -40,7 +41,7 @@ Style Chapter
 	TopSep                4
 	BottomSep             0.8
 	ParSep                0.8
-	Align                 Block
+	Align                 Center
 	OptionalArgs          1
 	Font
 	  Series              Bold
@@ -51,7 +52,8 @@ End
 Style Chapter*
 	CopyStyle             Chapter
 	Category              Unnumbered
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	LatexName             chapter*
 	LabelType             No_Label
 	LabelCounter	      ""	
@@ -60,11 +62,13 @@ End
 
 Style Standard
 	Category              MainText
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	LatexType             Paragraph
 	LatexName             dummy
 	ParIndent             MM
-	ParSkip               0.4
+	ParSkip               0.8
+	ParSep                0.3
 	Align                 Block
 	AlignPossible         Block, Left, Right, Center
 	LabelType             No_Label

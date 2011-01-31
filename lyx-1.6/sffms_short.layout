@@ -23,6 +23,8 @@ ClassOptions
 End
 
 Style Part*
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	Align                 Left
 	AlignPossible         Left
 	TopSep                2
@@ -34,11 +36,13 @@ End
 
 Style Standard
 	Category              MainText
-	Margin                Static
+	LeftMargin            MMMM
+	RightMargin           MMMM
 	LatexType             Paragraph
 	LatexName             dummy
 	ParIndent             MM
-	ParSkip               0.4
+	ParSkip               0.8
+	ParSep                0.3
 	Align                 Block
 	AlignPossible         Block, Left, Right, Center
 	LabelType             No_Label
