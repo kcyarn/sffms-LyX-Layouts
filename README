@@ -1,0 +1,30 @@
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is K. Chester.
+%
+% This work consists of the files sffms_novel.layout. sffms_short.layout, 
+% blind.lyx, and sleeper.lyx for both LyX-2.0 dev and LyX-1.6. Sleeper is a novel length example. Blind is a 
+% short story length example.
+
+INSTALLING SFFMS:
+
+The sffms LaTeX class can be obtained from http://mcdemarco.net/sffms/, CTAN, or various repositories.
+
+MikTex Tools is an easy way to install it. On Ubuntu, sffms is found in texlive-latex-extra.
+
+INSTALLING LyX LAYOUTS:
+Copy the layout files into your LyX layout directory. (/usr/share/lyx/layouts on Ubuntu). Open LyX and go to Tools > Reconfigure. Restart LyX.
+
+ISSUES:
+Please see the Readme file for the appropriate version of LyX.
+
+TIPS:
+PDF annotations, TODO-Notes, and FiXme are all wonderful methods of annotating/commenting/reviewing your work. To install these modules, see http://wiki.lyx.org/Layouts/Modules .
