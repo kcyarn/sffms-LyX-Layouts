@@ -1,5 +1,5 @@
 #LyX 2.0.0svn created this file. For more info see http://www.lyx.org/
-\lyxformat 398
+\lyxformat 399
 \begin_document
 \begin_header
 \textclass sffms_novel
@@ -37,6 +37,7 @@
 \use_amsmath 1
 \use_esint 1
 \use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
 \use_indices false
@@ -138,35 +139,29 @@ Isbister stopped abruptly.
  Bad advice for the most part.
  Drugs.
  My nervous system
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- .
+.
  They are all very well for the run of people.
  It's hard to explain.
  I dare not take
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- sufficiently powerful drugs."
+sufficiently powerful drugs."
 \end_layout
 
 \begin_layout Standard
@@ -304,20 +299,17 @@ The man threw out a hand towards him, and his eyes were wild, and his voice
  If in no other way---at the foot of yonder dark precipice there, where
  the waves are green, and the white surge lifts and falls, and that little
  thread of water trembles down.
- There at any rate is 
-\begin_inset ERT
+ There at any rate is
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- sleep."
+sleep."
 \end_layout
 
 \begin_layout Standard
@@ -404,19 +396,16 @@ He turned his head and showed a ghastly face, bloodshot pallid eyes and
  He spoke almost in a whisper.
  "It is the garment of my misery.
  The whole world
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- is the garment of my misery."
+is the garment of my misery."
 \end_layout
 
 \begin_layout Standard
@@ -604,14 +593,11 @@ A number of children going along the road stopped and regarded the artist
 
 \begin_layout Standard
 "I wonder," 
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
@@ -815,14 +801,11 @@ Warming seemed to doubt the quality of the luck.
 "Ah, yes ! At the proper Jubilee---the Fifty Year affair---I was down at
  Wookey---a boy.
  I missed all that
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
@@ -1089,19 +1072,16 @@ Pause.
 "It has," said Warming.
  "And now the gold supplies are running short there is a tendency towards
  
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- appreciation."
+appreciation."
 \end_layout
 
 \begin_layout Standard
@@ -2866,19 +2846,16 @@ Graham watched that visible inaudible conversation.
  He strained his ears in vain.
  The gesticulation of two of the speakers became animated.
  He glanced from them to the passive faces of his attendants
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- .
+.
  When he looked again Howard was extending his hands and moving his head
  like a man who protests.
  He was interrupted, it seemed, by one of the white-robed men rapping the
@@ -3414,19 +3391,16 @@ His pacing became more regular.
 Why?
 \emph default
  
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- But it is all 
+But it is all 
 \emph on
 why!
 \emph default
@@ -3615,19 +3589,16 @@ Howard's face lit with an idea.
  Naturally---an energetic man! You find it dull here.
  But we are anxious that everything you may desire---every desire---every
  sort of desire
-\begin_inset ERT
+\begin_inset Flex dots
 status collapsed
 
 \begin_layout Plain Layout
 
-
-\backslash
-dots
 \end_layout
 
 \end_inset
 
- There may be something.
+There may be something.
  Is there any sort of company? "
 \end_layout
 

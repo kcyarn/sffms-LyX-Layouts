@@ -32,7 +32,13 @@ Style Title
 	InTitle		0
 	Align		Center
 	LatexName	title
-	LabelType	Title 
+  	LabelType	Static
+        LabelString     "Title: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -44,7 +50,13 @@ Style Author
 	InTitle		0
 	Align		Center
 	LatexName	author
-	LabelType	Author 
+  	LabelType	Static
+  	LabelString     "Author: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -56,7 +68,13 @@ Style Surname
 	InTitle		0
 	Align		Center
 	LatexName	surname
-	LabelType	Surname
+  	LabelType	Static
+  	LabelString     "Surname: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -68,7 +86,13 @@ Style Address
 	InTitle		0
 	Align		Center
 	LatexName	address
-	LabelType	Address
+  	LabelType	Static
+  	LabelString     "Address: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -80,7 +104,13 @@ Style Runningtitle
 	InTitle		0
 	Align		Center
 	LatexName	runningtitle
-	LabelType	Running Title 
+  	LabelType	Static
+  	LabelString     "Running Title: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -92,7 +122,13 @@ Style Wordcount
 	InTitle		0
 	Align		Center
 	LatexName	wordcount
-	LabelType	Word Count 
+  	LabelType	Static
+  	LabelString     "Word Count: "
+        # label font definition
+        LabelFont 
+           Family		Sans
+           Series		Bold
+        EndFont
 	InPreamble	1
 End
 
@@ -149,3 +185,20 @@ End
 Preamble
 	\usepackage{indentfirst}
 EndPreamble
+
+InsetLayout New_Scene
+	LyXType               custom
+	Decoration            classic
+	LabelString           "#"
+	LatexType             command
+	LatexName             newscene
+	Align                 Center
+End
+
+InsetLayout dots
+	LyXType               custom
+	Decoration            classic
+	LabelString           "..."
+	LatexType             command
+	LatexName             dots
+End
