@@ -23,9 +23,13 @@ MikTex Tools is an easy way to install it. On Ubuntu, sffms is found in texlive-
 INSTALLING LyX LAYOUTS:
 Copy the layout files into your LyX layout directory. (/usr/share/lyx/layouts on Ubuntu). Open LyX and go to Tools > Reconfigure. Restart LyX.
 
+USING:
+1) Title, Author, etc. are added the same way you add a chapter. No editing the preamble.
+2) Add an ellipsis (...) by going to Insert > Custom Insets > dots.
+3) Add a Scene Break (enter, #, enter) by going to Insert > Custom Insets > New Scene.
+
 ISSUES:
 1) First paragraph must be indented. Currently, it isn't and using \usepackage{indentfirst} doesn't fix it for short story, but it does for novels. For short stories, add a part* prior to text and Insert > Formatting > Thinspace. This gives the correct result, but it's a hack!
-3) Scene breaks are added with Insert > TexCode \newscene . Need a module for this!
 
 See sffms docucmentation for other preamble options.
 
